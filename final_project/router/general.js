@@ -61,8 +61,6 @@ public_users.get('/title/:title',function (req, res) {
   } else {
     return res.status(404).json({message: "NO books found for this title"});
   }
-  //Write your code here
-  return res.status(300).json({message: "Yet to be implemented"});
 });
 
 //  Get book review
